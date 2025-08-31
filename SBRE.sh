@@ -828,9 +828,9 @@ function StreamingMediaUnlockTest(){
 }
 
 print_intro() {
-	printf ' SBRE -- By：Anki 最爱你咯\n' | tee -a $log
+	printf ' SBRE -- By：Anki = 最爱你咯\n' | tee -a $log
 	printf " 模式  : \e${GREEN}%s\e${PLAIN}    版本 : \e${GREEN}%s${PLAIN}\n" $mode_name 1.3.13-Anki | tee -a $log
-	printf ' 用法 : bash <(wget -qO- https://down.vpsaff.net/linux/speedtest/superbench.sh)\n' | tee -a $log
+	printf ' 用法 : bash <(wget -qO- https://cdn.jsdelivr.net/gh/AnkiLove/SBRE@main/SBRE.sh)\n' | tee -a $log
 }
 
 function get_json_value() {
